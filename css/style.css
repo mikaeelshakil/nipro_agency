@@ -1,0 +1,636 @@
+/*Common Start*/
+:root{
+	--lato: 'Lato', sans-serif;
+	--rob: 'Roboto', sans-serif;
+	--b: #333333;
+	--w: #ffffff;
+	--g: #8e8e8e;
+}
+body{
+	font-family: var(--rob);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--g);
+}
+
+.c_pad{
+	padding-bottom: 100px;
+}
+/*Common End*/
+
+/*Header Start*/
+
+header{
+	padding: 30px 0;
+}
+
+.c_nav{}
+
+.logo{}
+
+.logo h1{
+	font-family: var(--lato);
+	font-size: 30px;
+	font-weight: 500;
+	color: var(--b);
+}
+
+.menu{}
+
+.menu ul{}
+
+.menu ul li{}
+
+.menu ul li a {
+    padding: 0 30px 0 0 !important;
+    font-family: var(--lato);
+    font-size: 16px;
+    font-weight: 400 !important;
+    color: var(--g);
+}
+
+.menu ul li a:hover{
+	font-weight: 700 !important;
+	color: var(--b);
+}
+
+.c_btn{
+	border: none;
+	background: transparent;
+}
+
+.c_btn i{
+	font-size: 16px;
+	color: var(--g);
+}
+
+.c_btn i:hover{
+	color: var(--b);
+}
+
+.cm_h{}
+
+.cm_h h1{}
+
+.cm_sb{
+	background-color: var(--b);
+	color: var(--w);
+}
+
+.cm_cb{}
+
+/*Header End*/
+
+/*Slider Start*/
+.slider{
+	padding: 190px 0;
+	background-image: url(../images/banner.jpg);
+}
+.c_indi{
+    bottom: -110px;
+}
+
+.c_indi [data-bs-target] {
+	height: 4px;
+    background-color: var(--b);
+}
+
+.s_text{}
+
+.s_h1{
+	font-family: var(--lato);
+	font-size: 59px;
+	font-weight: 700;
+	color: var(--w);
+}
+
+.s_p{
+	margin: 50px 0;
+	line-height: 30px;
+	color: var(--w);
+}
+
+.s_btn{
+	padding: 15px 30px;
+	font-weight: 500;
+	border-radius: 0;
+	background-color: var(--w);
+}
+
+.s_btn:hover{
+	color: var(--w);
+	background-color: var(--b);
+}
+
+.arrow{
+	font-size: 16px;
+	color: var(--b);
+	margin-left: 25px;
+}
+
+.arrow:hover{
+	color: var(--w);
+}
+/*Slider End*/
+
+/*Nipro Start*/
+
+.nipro{
+	padding-top: 100px;
+}
+
+.n_text{}
+
+.c_h1{
+	font-family: var(--lato);
+	font-size: 30px;
+	font-weight: 400;
+	color: var(--b) !important;
+	text-transform: uppercase;
+}
+
+.n_p{
+	margin: 50px 0 0;
+	line-height: 30px;
+}
+
+/*Nipro Start*/
+
+/*Feature Start*/
+
+.feature{}
+
+.f_item{
+	margin-top: 60px;
+	padding: 65px 20px 40px 20px;
+	border: 1px solid var(--g);
+	position: relative;
+}
+
+.f_icon {
+	position: absolute;
+	left: 77px;
+    top: -21px;
+    padding: 0 10px;
+    font-size: 40px;
+    background-color: var(--w);
+}
+
+.c_h2{
+	font-family: var(--lato);
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--b);
+	text-transform: uppercase;
+}
+
+.arrowright{
+	font-size: 16px;
+	color: var(--g);
+	margin-left: 25px;
+}
+
+.line{
+	margin: 20px 0;
+	border-bottom: 1px solid var(--g);
+	width: 50px;
+}
+
+.f_item p{
+	margin-bottom: 40px;
+	line-height: 26px;
+}
+
+.f_item a{
+	text-decoration: none;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: var(--g) !important;
+}
+
+.f_item a:hover{
+/*	color: var(--b) !important;*/
+}
+
+.f_item a i{
+	margin-left: 20px;
+	color: var(--g);
+}
+
+.f_item a i:hover{
+/*	color: var(--b) !important;*/
+}
+/*Feature End*/
+
+/*About Us Start*/
+.about{}
+
+.ab_img {
+    margin-top: 8px;
+}
+
+.about_text{
+	margin-left: 50px;
+}
+
+.about_text p{
+	margin: 30px 0 35px;
+	line-height: 27px;
+}
+
+.ab_btn{
+	border: 1px solid var(--b);
+}
+/*About Us End*/
+
+/*Portfolio Start*/
+
+.portfo{
+	background-color: #f8f8f8;
+}
+
+.p_item{}
+
+.p_h1{
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+
+.p_ul{}
+
+.p_ul li:not(:last-child) {
+    margin-right: 6px;
+}
+
+.p_ul li a:hover{
+	padding: 12px 12px;
+	border: 1px solid var(--b);
+	font-weight: 500;
+	color: var(--b);
+}
+
+.p_ul li a{
+	text-decoration: none;
+	padding: 12px 12px;
+	border: 1px solid transparent;
+	color: var(--g);
+}
+
+.sport_item{
+	margin-top: 40px;
+	position: relative;
+/*	width: 100%;*/
+}
+
+.sport_item:hover{
+	width: 100%;
+	height: 300px;
+}
+
+
+.overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	opacity: 0;
+	background-color: black;
+	transition: .46s;
+}
+
+.overlay:hover{
+	opacity: .8;
+}
+
+.overlay h1{
+	position: absolute;
+	margin: 0;
+	font-family: var(--lato);
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--b) !important;
+	transform: translate(-50%, -50%);
+	top: 320px;
+	left: 47px;
+	text-align: center;
+}
+
+.overlay p{
+	position: absolute;
+	margin: 0;
+	font-family: var(--lato);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--g);
+	transform: translate(-50%, -50%);
+	top: 355px;
+	left: 38px;
+	text-align: center;
+}
+.overlay i{
+	position: absolute;
+	margin: 0;
+	font-size: 40px;
+	color: var(--w);
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	text-align: center;
+/*	cursor: pointer;*/
+}
+
+/*Portfolio End*/
+
+/*Why Choose Nipro Start*/
+
+.choose{}
+
+.ch_text{}
+
+.ch_h1{
+	margin-top: 80px;
+	margin-bottom: 60px;
+}
+
+.ch_pad{
+	padding: 0 25px;
+}
+
+.ch_icon{
+	margin-top: 40px;
+}
+
+.ch_ic{
+	font-size: 40px;
+}
+.ch_htext{
+	margin-top: 40px;
+}
+
+.ch_h2{
+	margin-left: 16px;
+	color: var(--g);
+}
+
+.ch_sp p{
+	margin-top: 16px;
+	margin-bottom: 35px !important;
+}
+
+.c_border{
+	border-bottom: 1px solid var(--g);
+}
+
+.c_watch{
+	rotate: 34deg;
+}
+
+.c_mini{
+	rotate: -35deg;
+}
+
+/*Why Choose Nipro End*/
+
+/*work with us Start*/
+
+.work_us{
+	background-image: url(../images/w_bg.jpg);
+}
+
+.w_text{}
+
+.w_h1{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.w_single{
+	margin-top: 40px;
+	background-color: var(--w);
+}
+
+.w_h2{
+	padding: 18px 20px 6px 30px;
+}
+.w_p{
+	padding: 6px 20px 18px 30px;
+}
+
+.w_single{
+	position: relative;
+/*	width: 100%;*/
+}
+
+.w_single:hover{
+background-color: var(--w);
+/*width: 100px;*/
+}
+
+
+.overlay2{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: .33s;
+	
+}
+
+.overlay2:hover{
+	opacity: .8;
+}
+
+
+.i1{
+	position: absolute;
+	margin: 0;
+	font-size: 25px;
+	color: var(--g);
+	transform: translate(-50%, -50%);
+	top: 25%;
+	left: 12%;
+	text-align: center;
+}
+.i2{
+	position: absolute;
+	margin: 0;
+	font-size: 25px;
+	color: var(--g);
+	transform: translate(-50%, -50%);
+	top: 35%;
+	left: 12%;
+	text-align: center;
+}
+.i3{
+	position: absolute;
+	margin: 0;
+	font-size: 25px;
+	color: var(--g);
+	transform: translate(-50%, -50%);
+	top: 45%;
+	left: 12%;
+	text-align: center;
+}
+.i4{
+	position: absolute;
+	margin: 0;
+	font-size: 25px;
+	color: var(--g);
+	transform: translate(-50%, -50%);
+	top: 55%;
+	left: 12%;
+	text-align: center;
+}
+
+.i1:hover, .i2:hover, .i3:hover, .i4:hover{
+	padding: 7px;
+	background-color: #f8f8f8;
+	border-right: 1px solid black;
+}
+/*work with us End*/
+
+/*Best Pricing Start */
+
+.best_pricing{}
+
+.bp_text{}
+
+.bp_h1{}
+
+.bp_item{
+	margin-top: 40px;
+	padding: 40px 30px;
+	border: 1px solid var(--g);
+	position: relative;
+}
+
+.bp_title{
+	position: absolute;
+	left: 25px;
+    top: -11px;
+    padding: 0 7px;
+    font-size: 18px;
+    color: var(--b);
+    text-transform: uppercase;
+    background-color: var(--w);
+}
+
+.bp_h2{
+	font-family: var(--lato);
+	font-size: 36px;
+	font-weight: 400;
+	color: var(--b);
+	text-transform: uppercase;
+}
+
+.bp_h2 span{
+	font-size: 16px;
+	color: var(--g);
+	text-transform: none;
+}
+
+.bp_item p{
+	margin: 40px 0;
+	font-size: 16px;
+	line-height: 38px;
+}
+
+.bp_arrow{
+	font-size: 16px;
+	color: var(--g);
+	margin-left: 25px;
+}
+
+.bps_btn{
+	padding: 10px 30px;
+	border: 1px solid var(--g);
+	border-radius: 0;
+}
+.bps_btn a{
+	
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--g) !important;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+}
+
+/*Best Pricing End */
+
+/*Personal Info Start*/
+
+.personal_info{}
+
+.pi_border{
+	padding: 40px 25px;
+	border: 1px solid var(--g);
+}
+
+.pi_indi{}
+
+.pi_img{
+	margin-top: 5px;
+}
+
+.pi_img img{}
+
+.pi_text{}
+
+.pi_name{}
+
+.pi_desig{
+	margin-top: 8px;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+.pi_co{
+	font-size: 18px;
+	font-weight: 400;
+	color: var(--b);
+}
+
+.pi_para{
+	margin-top: 25px;
+	line-height: 27px;
+}
+
+.box{
+	padding: 193px 28px;
+	background-color: #f8f8f8;
+	border: 1px solid var(--b);
+}
+
+.pre{
+	rotate: 90deg;
+    top: -290px;
+    left: 833px;
+    color: var(--b) !important;
+}
+ .next{
+ 	rotate: 90deg;
+    top: 280px;
+    left: 833px;
+    color: var(--b) !important;
+}
+
+
+.pi_indi{
+    rotate: 90deg;
+    right: -961px;
+    bottom: 110px;
+}
+
+.pi_indi [data-bs-target] {
+    width: 2px;
+    height: 15px;
+    background-color: var(--b);
+}
+/*Personal Info End*/
